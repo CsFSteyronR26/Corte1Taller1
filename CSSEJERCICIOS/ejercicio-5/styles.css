@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+.grupo-prueba, .explicacion {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.caja-div {
+    background-color: #dbeafe;
+    border: 2px solid #1d4ed8;
+    color: #1e3a8a;
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.caja-span {
+    background-color: #dcfce7;
+    border: 2px solid #15803d;
+    color: #14532d;
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.modo-block {
+    display: block;
+}
+
+.modo-inline {
+    display: inline; 
+}
+
+.modo-inline-block {
+    display: inline-block;
+}
+
+.modo-none {
+    display: none; 
+}
+

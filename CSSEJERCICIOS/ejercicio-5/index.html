@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Ejercicio 5: Propiedad Display</h1>
+
+
+    <section class="grupo-prueba">
+        <h2>1. Pruebas con elementos div</h2>
+        
+        <div class="caja-div modo-block">DIV 1: display: block</div>
+        <div class="caja-div modo-inline">DIV 2: display: inline</div>
+        <div class="caja-div modo-inline-block">DIV 3: display: inline-block</div>
+        <div class="caja-span modo-none">SPAN 4: display: none (oculto)</div>
+    </section>
+    
+    <section class="grupo-prueba">
+        <h2>2. Pruebas con elementos span</h2>
+
+        <span class="caja-span modo-block">SPAN 1: display: block</span>
+        <span class="caja-span modo-inline">SPAN 2: display: inline</span>
+        <span class="caja-span modo-inline-block">SPAN 3: display: inline-block</span>
+        <span class="caja-span modo-none">SPAN 4: display: none (oculto)</span>
+    </section>
+
+
+    <section class="explicacion">
+        <h2>Diferencias observadas</h2>
+        <ul>
+            <li>
+                <strong><code>display: block</code>:</strong> El elemento ocupa todo el ancho disponible de su contenedor 
+                (o respeta el <code>width</code> y <code>height</code> asignados) y fuerza un salto de línea antes y después de sí mismo.
+            </li>
+            <li>
+                <strong><code>display: inline</code>:</strong> El elemento se ubica uno al lado del otro en la misma línea sin 
+                generar saltos. Su tamaño se ajusta únicamente a su contenido interno, por lo que ignora las propiedades 
+                <code>width</code> y <code>height</code>.
+            </li>
+            <li>
+                <strong><code>display: inline-block</code>:</strong> Combina lo mejor de ambos: permite que los elementos se 
+                coloquen uno al lado del otro en la misma línea (como <code>inline</code>), pero sí respeta las dimensiones 
+                personalizadas de <code>width</code>, <code>height</code>, <code>margin</code> y <code>padding</code> vertical (como <code>block</code>).
+            </li>
+            <li>
+                <strong><code>display: none</code>:</strong> Oculta completamente el elemento en la pantalla y elimina el espacio 
+                que ocupaba en el flujo del documento, como si no existiera visualmente.
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>

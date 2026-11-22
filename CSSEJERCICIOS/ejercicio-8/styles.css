@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #e2e8f0;
+    color: #1e293b;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Contenedor principal con ancho definido para escritorio */
+.contenedor-principal {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 32px;
+    text-align: center;
+}
+
+.encabezado h1 {
+    margin: 0 0 8px 0;
+    font-size: 30px;
+}
+
+.encabezado p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.area-contenido {
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+}
+
+.bloque {
+    flex: 1;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 20px;
+    line-height: 1.65;
+}
+
+.bloque h2 {
+    color: #0f766e;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* ===================================================
+   MEDIA QUERY PARA TABLETS Y MÓVILES (<= 768px)
+   =================================================== */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .contenedor-principal {
+        width: 100%;
+    }
+
+    .encabezado {
+        padding: 24px 16px;
+    }
+
+    .encabezado h1 {
+        font-size: 24px;
+    }
+
+    .area-contenido {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+    }
+}

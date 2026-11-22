@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 24px;
+    min-height: 120vh; 
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+.contenedor-principal {
+    position: relative;
+    width: 820px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 3px dashed #94a3b8;
+    border-radius: 12px;
+}
+
+.caja {
+    width: 240px;
+    padding: 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.caja h2 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.caja p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+
+.caja-relativa {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #1d4ed8;
+}
+
+
+.caja-absoluta-1 {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    z-index: 1;
+    background-color: #047857;
+}
+
+.caja-absoluta-superpuesta {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    z-index: 10; 
+    background-color: #dc2626;
+    border: 2px solid #ffffff;
+}
+
+.caja-inferior {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    background-color: #6d28d9;
+}
+
+.etiqueta-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 50;
+    background-color: #0f172a;
+    color: #38bdf8;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}

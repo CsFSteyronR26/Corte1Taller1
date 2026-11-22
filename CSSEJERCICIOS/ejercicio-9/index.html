@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="titulo">
+        <h1>Posicionamiento</h1>
+    </header>
+
+    <main class="contenedor-principal">
+
+        <div class="caja caja-relativa">
+            <h2>1. Relative</h2>
+            <p>Desplazada <code>top: 20px</code> y <code>left: 30px</code> respecto a su posición original.</p>
+        </div>
+
+        <div class="caja caja-absoluta-1">
+            <h2>2. Absolute (Capa base)</h2>
+            <p>Ubicada con <code>top: 40px</code>, <code>right: 60px</code> y <code>z-index: 1</code>.</p>
+        </div>
+
+        <div class="caja caja-absoluta-superpuesta">
+            <h2>3. Superpuesta (z-index: 10)</h2>
+            <p>Ubicada con <code>top: 110px</code> y <code>right: 110px</code> para quedar encima de la caja 2.</p>
+        </div>
+
+        <div class="caja caja-inferior">
+            <h2>4. Inferior Izquierda</h2>
+            <p>Fijada al fondo del contenedor usando <code>bottom: 20px</code> y <code>left: 30px</code>.</p>
+        </div>
+
+    </main>
+
+    <div class="etiqueta-fixed">
+        Elemento <code>position: fixed</code> (bottom: 20px, right: 20px)
+    </div>
+
+</body>
+</html>
