@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #1e3a8a;     
+    font-size: 32px;      
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 8px;
+}
+
+p {
+    color: #334155;   
+    font-size: 16px;     
+}
+
+
+.parrafo-destacado {
+    color: #0f766e;       
+    font-size: 18px;      
+    background-color: #ccfbf1;
+    padding: 12px;
+    border-left: 4px solid #0f766e;
+}
+
+
+#parrafo-unico {
+    color: #991b1b;       
+    font-size: 20px;     
+    font-weight: bold;
+    background-color: #fee2e2;
+    padding: 12px;
+    border-radius: 6px;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: #e2e8f0; 
+    color: #1e293b;           
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #0f172a;
+}
+
+
+.caja {
+    width: 320px;             
+    height: 140px;             
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.caja-1 {
+    background-color: #1d4ed8; 
+    color: #ffffff;           
+}
+
+.caja-2 {
+    background-color: #047857; 
+    color: #ecfdf5;            
+}
+.caja-3 {
+    background-color: #f59e0b; 
+}

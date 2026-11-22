@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+
+    <h1>Formulario de Inscripción Universitaria</h1>
+    <p>Completa los siguiente datos: </p>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+
+        <fieldset>
+            <strong>Datos Personales</strong>
+
+            <div>
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="estudiante@universidad.edu.co" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="edad">Edad:</label><br>
+                <input type="number" id="edad" name="edad" min="15" max="99" placeholder="Ej. 20" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="carrera">Carrera a la que aspira:</label><br>
+                <select id="carrera" name="carrera" required>
+                    <option value="" disabled selected>-- Selecciona una carrera --</option>
+                    <option value="ingenieria_sistemas">Ingeniería de Sistemas</option>
+                    <option value="ingenieria_software">Ingeniería de Software</option>
+                    <option value="ingenieria_electronica">Ingeniería Electrónica</option>
+                    <option value="ingenieria_industrial">Ingeniería Industrial</option>
+                    <option value="administracion">Administración de Empresas</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <span>Género:</span><br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label><br>
+
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br>
+
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro / Prefiero no decirlo</label>
+            </div>
+            <br>
+
+              <div>
+                <span>Habilidades destacadas:</span><br>
+                <input type="checkbox" id="hab_programacion" name="habilidades[]" value="programacion">
+                <label for="hab_programacion">Programación y lógica</label><br>
+
+                <input type="checkbox" id="hab_matematicas" name="habilidades[]" value="matematicas">
+                <label for="hab_matematicas">Análisis matemático</label><br>
+
+                <input type="checkbox" id="hab_ingles" name="habilidades[]" value="ingles">
+                <label for="hab_ingles">Idioma Inglés</label><br>
+
+                <input type="checkbox" id="hab_liderazgo" name="habilidades[]" value="liderazgo">
+                <label for="hab_liderazgo">Trabajo en equipo y liderazgo</label>
+            </div>
+            <br>
+
+            <div>
+                <label for="foto">Foto tipo documento (JPG o PNG):</label><br>
+                <input type="file" id="foto" name="foto" accept="image/png, image/jpeg" required>
+            </div>
+            <br>
+
+             <div>  
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="45" placeholder="Comentarios..."></textarea>
+            </div>
+            <br>
+           
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar Inscripción</button>
+        <button type="reset">Limpiar Formulario</button>
+
+    </form>
+
+</body>
+</html>
